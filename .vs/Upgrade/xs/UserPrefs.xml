@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{819169D6-D6C9-2D24-A1B8-F9264EBB3704}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerMovementV2.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerAnimationScript.cs">
     <Files>
       <File FileName="Assets/Scripts/PlayerMovementScript.cs" Line="32" Column="18" />
-      <File FileName="Assets/Scripts/PlayerMovementV2.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PlayerMovementV2.cs" Line="21" Column="6" />
+      <File FileName="Assets/Scripts/PlayerAnimationScript.cs" Line="33" Column="15" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,7 +11,7 @@
           <Node name="Upgrade" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="PlayerMovementV2.cs" selected="True" />
+                <Node name="PlayerAnimationScript.cs" selected="True" />
               </Node>
             </Node>
           </Node>
