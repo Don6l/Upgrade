@@ -2,35 +2,38 @@ using UnityEngine;
 
 public class PlayerAnimationScript : MonoBehaviour
 {
-    [SerializeField]
-    private Animator _southAnimation;
-
-    [SerializeField]
-    private Animation _northAnimation;
-
-    [SerializeField]
-    private Animation _westAnimation;
-
-    [SerializeField]
-    private Animator _eastAnimation;
+   
 
     private Animator _currentAnimation;
     // Start is called before the first frame update
     void Start()
     {
-        _currentAnimation = _southAnimation;
+        _currentAnimation = GetComponent<Animator>();
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
-        if (Input.GetKeyDown("Down"))
+        if (Input.GetKey("down") || Input.GetKey("s"))
         {
-            _currentAnimation = _southAnimation;
+            Debug.Log("down");
+            _currentAnimation.Play("PlayerSouthAnimation");
         }
-        else if (Input.GetKeyDown("Up"))
+        else if (Input.GetKey("up") || Input.GetKey("w"))
         {
-            //_currentAnimation = _northAnimation;
+            Debug.Log("up");
+            _currentAnimation.Play("PlayerNorthAnimation");
         }
+        else if (Input.GetKey("left") || Input.GetKey("a"))
+        {
+            Debug.Log("left");
+            _currentAnimation.Play("PlayerWestAnimation");
+        }
+        else if (Input.GetKey("right") || Input.GetKey("d"))
+        {
+            Debug.Log("right");
+            _currentAnimation.Play("PlayerEastAnimation");
+        }
+
     }
 }
