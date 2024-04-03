@@ -9,6 +9,7 @@ public class PlayerAnimationScript : MonoBehaviour
     void Start()
     {
         _currentAnimation = GetComponent<Animator>();
+        _currentAnimation.Play("PlayerIdleSouthAnimation");
     }
 
     // Update is called once per frame

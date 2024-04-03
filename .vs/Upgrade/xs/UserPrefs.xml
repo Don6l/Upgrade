@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerAnimationScript.cs">
     <Files>
       <File FileName="Assets/Scripts/PlayerMovementV2.cs" Line="8" Column="1" />
-      <File FileName="Assets/Scripts/PlayerAnimationScript.cs" Line="35" Column="1" />
+      <File FileName="Assets/Scripts/PlayerAnimationScript.cs" Line="12" Column="57" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,7 +20,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="9f0431ca-b15f-4e86-b8be-f592a34cbc55" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7b66ad91-d9c9-46f9-890b-de873b874b8d" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
